@@ -1,0 +1,25 @@
+{
+  "folders": [
+	{
+		"path": "../../labb4"
+	},
+	{
+		"path": "../../my-project"
+	},
+	{
+		"path": ".."
+	},
+	{
+		"path": "../../LABB2_webb/NEW_MAP"
+	},
+	{
+		"path": "../../LABB2_webb/LABB3/NEW_MAP"
+	},
+	{
+		"path": "../../LABB2_webb/LaBB3(needToDo)"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "labb4"
+  }
+}
