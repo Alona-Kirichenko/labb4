@@ -6,9 +6,11 @@ $body-bg: #9799ca;
 // Bootstrap body foreground
 
 // Bootstrap theme colors
-$theme-colors: (
-  'primary': #bd93d8
-);
+
+#commentButton {
+  margin: 0px 10px 15px;
+  background-color: #bd93d8;
+}
 
 @import '~bootstrap';
 @import '~bootstrap-vue';

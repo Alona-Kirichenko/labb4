@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> |
-      <router-link to="/NewOne">New </router-link> |
+      <router-link to="/">Bar picture</router-link> |
+      <router-link to="/about">Cats facts</router-link> |
+      <router-link to="/NewOne"> Bar Menu </router-link> |
     </div>
     <router-view />
     <SecondOneComponent :aboutSite="aboutSite"></SecondOneComponent>

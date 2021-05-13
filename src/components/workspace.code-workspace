@@ -1,0 +1,19 @@
+{
+  "folders": [
+	{
+		"path": "../.."
+	},
+	{
+		"path": "../../../my-project"
+	},
+	{
+		"path": "../../dist"
+	},
+	{
+		"path": "../../min-webbplats"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "min-webbplats"
+  }
+}

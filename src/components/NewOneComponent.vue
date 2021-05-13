@@ -30,9 +30,11 @@
           .then((result) => {
             this.cocktails = result
           })
+        this.text = ''
       },
       no() {
         this.text = 'No so no. Bye bye!'
+        this.cocktails = {}
       }
     }
   }

@@ -9,8 +9,6 @@
     props: {
       aboutSite: {
         type: String
-        /* require: false,
-        default: 'no' */
       }
     }
   }

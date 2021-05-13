@@ -1,8 +1,13 @@
 <template>
   <div>
-    <b-button @click="addComment(fact)" variant="primary">Klicka här!</b-button>
-    <br /><br />
-    <input id="writeComent" v-model="fact" placeholder="Write you comment" />
+    <input
+      id="writeComent"
+      v-model="fact"
+      placeholder="Write you comment"
+    /><br />
+    <b-button id="commentButton" @click="addComment(fact)" variant="primary"
+      >Leave a comment!</b-button
+    >
 
     <ul v-if="facts">
       <li v-for="(item, index) in facts" :key="index">
